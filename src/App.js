@@ -4,6 +4,7 @@ import Counter from './Componets/Counter';
 import FunctionClick from './Componets/FunctionClick';
 import EventBind from './Componets/EventBind';
 import ParentComponent from './Componets/ParentComponent';
+import NameList from './Componets/NameList';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <Counter/> */}
       {/* <FunctionClick/> */}
       {/* <EventBind/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      <NameList/>
     </div>
   );
 }
