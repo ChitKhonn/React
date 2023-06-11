@@ -5,6 +5,7 @@ import FunctionClick from './Componets/FunctionClick';
 import EventBind from './Componets/EventBind';
 import ParentComponent from './Componets/ParentComponent';
 import NameList from './Componets/NameList';
+import Form from './Componets/Form';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <FunctionClick/> */}
       {/* <EventBind/> */}
       {/* <ParentComponent/> */}
-      <NameList/>
+      {/* <NameList/> */}
+      <Form/>
     </div>
   );
 }
