@@ -6,6 +6,7 @@ import EventBind from './Componets/EventBind';
 import ParentComponent from './Componets/ParentComponent';
 import NameList from './Componets/NameList';
 import Form from './Componets/Form';
+import RefComponent from './Componets/RefComponent';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <EventBind/> */}
       {/* <ParentComponent/> */}
       {/* <NameList/> */}
-      <Form/>
+      {/* <Form/> */}
+      <RefComponent/>
     </div>
   );
 }
