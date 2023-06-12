@@ -7,6 +7,7 @@ import ParentComponent from './Componets/ParentComponent';
 import NameList from './Componets/NameList';
 import Form from './Componets/Form';
 import RefComponent from './Componets/RefComponent';
+import ParentRef from './Componets/ParentRef';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <ParentComponent/> */}
       {/* <NameList/> */}
       {/* <Form/> */}
-      <RefComponent/>
+      {/* <RefComponent/> */}
+      <ParentRef/>
     </div>
   );
 }
