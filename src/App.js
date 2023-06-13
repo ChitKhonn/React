@@ -8,6 +8,7 @@ import NameList from './Componets/NameList';
 import Form from './Componets/Form';
 import RefComponent from './Componets/RefComponent';
 import ParentRef from './Componets/ParentRef';
+import ClickCounterTwo from './Componets/ClickCounterTwo';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <NameList/> */}
       {/* <Form/> */}
       {/* <RefComponent/> */}
-      <ParentRef/>
+      {/* <ParentRef/> */}
+      <ClickCounterTwo/>
     </div>
   );
 }
